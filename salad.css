@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px 10px;
+}
+
+.container h1 {
+    display: inline-block;
+    font-size: 2.5em;
+    margin-left: 20px;
+}
+
+.menu1 {
+    border-bottom: 3px solid black;
+}
+
+.menu {
+    background-color: beige;
+    padding: 40px 0;
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.salad-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.salad-item {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.salad-item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.salad-item h3 {
+    margin: 15px 0;
+    font-size: 1.6em;
+    color: #333;
+}
+
+.salad-item .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.salad-item .add-to-cart {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.salad-item .add-to-cart:hover {
+    color:black;
+    background-color: rgb(244, 37, 37);
+}
+
+@media (max-width: 768px) {
+    .salad-item {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .salad-item {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header nav ul li {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        font-size: 1em;
+    }
+
+    .menu h2 {
+        font-size: 1.8em;
+    }
+}
+
+footer {
+    background-color: wheat;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1em;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CraveCrate | Cart</title>
+  <link rel="stylesheet" href="cart.css">
+  <link rel = "stylesheet" href = "food.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header>
+        <div class = "header">
+        <div class="headerbar">
+            <div class="account">
+                <ul>
+                    <a href = "food.html">
+                        <li>
+                            <i class = "fa-solid fa-house-chimney"></i>
+                        </li>
+                    </a>
+                    <a href = "#">
+                        <li>
+                            <i class = "fa-solid fa-magnifying-glass searchicon" id = "searchicon1"></i>
+                        </li>
+                    </a>
+                    <div class = "search" id = "searchinput1">
+                        <input type = "search">
+                        <i class = "fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href = "about.html">
+                        <li>
+                            <i class = "fa-solid fa-user" id = "user-mb"></i>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href = "food.html">
+                        <li>Home</li>
+                    </a>
+                    <a href = "about.html">
+                        <li>About</li>
+                    </a>
+                    <a href = "#food-menu">
+                        <li>Menu</li>
+                    </a>
+                    <a href = "cart.html">
+                        <li>Cart</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class = "logo">
+        <img src = "C:\Users\DELL\OneDrive\Desktop\logo.jpg" alt ="CraveCrate"><h2>CraveCrate</h2></h1></div>
+        <div class = "bar">
+            <i class = "fa-solid fa-bars"></i>
+            <i class = "fa-solid fa-xmark" id = "hdcross"></i>
+        </div>
+        <div class = "nav">
+            <ul>
+                <a href = "food.html">
+                    <li>Home</li>
+                </a>
+                <a href = "about.html">
+                    <li>About</li>
+                </a>
+                <a href = "#food-menu">
+                    <li>Menu</li>
+                </a>
+                <div class="cart1">
+                <a href = "">
+                    <li>Cart</li>
+                </a>
+                </div>
+            </ul>
+        </div>
+        <div class = "account">
+
+            <ul>
+                <div class="location">
+                    <a class = "Your-Location" href = "location.html"><i class="fa fa-map-marker-alt"></i></a>
+                </div>
+                <a href = "food.html">
+                    <li>
+                        <i class = "fa-solid fa-house-chimney"></i>
+                    </li>
+                </a>
+                <a href = "#">
+                    <li>
+                        <i class = "fa-solid fa-magnifying-glass searchicon" id = "searchicon2"></i>
+                    </li>
+                </a>
+                <div class = "search" id = "searchinput2">
+                    <input type = "search">
+                    <i class = "fa-solid fa-magnifying-glass srchicon"></i>
+                </div>
+                <a href = "about.html">
+                    <li>
+                        <i class = "fa-solid fa-user" id = "user-lap"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        </div>
+    </header>
+
+  <div class="cart-container">
+    <h1>Your Cart</h1>
+
+    <div class="cart-items">
+      <div class="cart-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGMZnYpGrfAOs7MG1i2tXkDn97YRtb8mG5hg&s" alt="Pizza" class="item-image">
+        <div class="item-info">
+          <h3>Sizzle Supreme Pizza</h3>
+          <p class="item-price">Rs.550</p>
+          <div class="quantity">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+        </div>
+        <button class="remove-item">Remove</button>
+      </div>
+
+      <div class="cart-item">
+        <img src="C:\Users\DELL\OneDrive\Desktop\Images\dimsum.png" alt="Burger" class="item-image">
+        <div class="item-info">
+          <h3>Dimsum Tacos</h3>
+          <p class="item-price">Rs.90</p>
+          <div class="quantity">
+            <button>-</button>
+            <span>2</span>
+            <button>+</button>
+          </div>
+        </div>
+        <button class="remove-item">Remove</button>
+      </div>
+    </div>
+
+    <div class="cart-summary">
+      <div class="total">
+        <h2>Total:</h2>
+        <p>Rs.730</p>
+      </div>
+      <a class = "payment" href = "payment.html"><button class="checkout-btn">Order Now</button></a>
+    </div>
+  </div>
+
+</body>
+</html>

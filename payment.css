@@ -1,0 +1,59 @@
+.payment-container {
+    color: white;
+    background: lightblue;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1700px;
+  }
+
+.credit-debit {
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 20px;
+  }
+
+  .net-banking {
+    border-top: 2px solid black;
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 20px;
+  }
+
+  .cash {
+    border-top: 2px solid black;
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 20px;
+  }
+
+  .success_btn {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 160px;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+    border: 1px solid rgb(25, 0, 255);
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px rgb(25, 0, 255);
+    transition: all 0.2s;
+  }
+
+  .success_btn:hover {
+    color: whitesmoke;
+    background-color: orangered;
+    box-shadow: 0 10px 15px orangered;
+}
+.item .success_btn {
+    width: 120px;
+    line-height: 35px;
+}

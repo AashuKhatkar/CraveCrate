@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(https://img.freepik.com/premium-photo/plate-food-table-with-blurred-background_1304147-157373.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn {
+    width: 106%;
+    padding: 10px;
+    background-color: #a73328;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+    font-size: 14px;
+}

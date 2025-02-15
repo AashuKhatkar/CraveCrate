@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="payment-container">
+        <h2>Payment by Card</h2>
+        
+        <form id="payment-form">
+            <input type="text" id="cardholder-name" class="input-field" placeholder="Cardholder Name" required>
+            <input type="text" id="card-number" class="input-field" placeholder="Card Number" maxlength="16" required>
+            <input type="text" id="expiry-date" class="input-field" placeholder="MM / YY" maxlength="5" required>
+            <input type="text" id="cvc" class="input-field" placeholder="CVC" maxlength="3" required>
+            <button type="submit" class="btn">Pay Now</button>
+        </form>
+
+        <div id="payment-error" class="error-message"></div>
+        <div id="payment-success" class="success-message"></div>
+    </div>
+
+    <script src ="card.js"></script>
+</body>
+</html>
