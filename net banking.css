@@ -78,6 +78,7 @@ input:focus, select:focus {
 }
 
 input[type="number"] {
+    appearance: textfield;
     -moz-appearance: textfield;
 }
 
