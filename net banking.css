@@ -56,11 +56,11 @@ input:focus, select:focus {
 
 .form-actions {
     display: flex;
-    justify-content: center;
+    justify-content: cente;
 }
 
 .submit-button {
-    background-color: #0011ff;
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 12px 20px;
