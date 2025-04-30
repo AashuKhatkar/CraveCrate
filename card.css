@@ -55,7 +55,7 @@ h2 {
 }
 
 .error-message {
-    color: red;
+    color: rgba(255, 0, 0, 0.907);
     text-align: center;
     font-size: 14px;
 }
