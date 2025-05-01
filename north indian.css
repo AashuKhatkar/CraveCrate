@@ -52,7 +52,7 @@ body {
     overflow: hidden;
     text-align: center;
     padding: 15px;
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
 }
 
 .north_indian-item img {
