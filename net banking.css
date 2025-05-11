@@ -56,7 +56,7 @@ input:focus, select:focus {
 
 .form-actions {
     display: flex;
-    justify-content: cente;
+    justify-content: center;
 }
 
 .submit-button {
